@@ -1,0 +1,25 @@
+# General
+.fabric/
+.firmament/
+crash-reports/
+downloads/
+logs/
+saves/ # Multiplayer only
+screenshots/
+server-resource-packs/
+skyblock-repo-cache/
+realms_persistence.json
+
+# Configs
+config/firmament
+config/notenoughupdates
+config/roughlyenoughitems
+config/skyblockapi
+config/skyhanni/backup/
+config/skyhanni/logs/
+config/skyhanni/repo/
+config/skyhanni/currentCommit.json
+config/skyhanni/friends.json
+config/aaron-mod.json
+config/resourceful-config-web.json
+config/sodium-fingerprint.json

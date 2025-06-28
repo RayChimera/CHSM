@@ -1,0 +1,16 @@
+filename = 'SkyHanni-3.14.0-mc1.21.5.jar'
+name = 'SkyHanni for Hypixel SkyBlock'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '2734ee1d3cc80bd6be38aed762e6e41a99cfac0f802468844106380cf2b5e4560721cb45291540cf8d7fc1a182dc251c4e9178985ab73b4b3b472f1756db4437'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/byNkmv5G/versions/KDzmQ5On/SkyHanni-3.14.0-mc1.21.5.jar'
+
+[update.modrinth]
+mod-id = 'byNkmv5G'
+version = 'KDzmQ5On'

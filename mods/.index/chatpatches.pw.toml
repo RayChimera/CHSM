@@ -1,0 +1,16 @@
+filename = 'chatpatches-215.6.15.jar'
+name = 'Chat Patches'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4b5b9663f0292e9b3d557d4a32e3d7f887b8a71a00a029857fe288d1b0bd92b9abb888391564cea65953b37b780ba9e28ae04baf9db1532b5e0fc71b9d184cb5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MOqt4Z5n/versions/XdkOQ4T2/chatpatches-215.6.15.jar'
+
+[update.modrinth]
+mod-id = 'MOqt4Z5n'
+version = 'XdkOQ4T2'

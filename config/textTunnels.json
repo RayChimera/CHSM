@@ -1,0 +1,67 @@
+{
+	"mainConfig": {
+		"enabled": true,
+		"buttonStyle": {
+			"spacing": 2,
+			"heightOffset": 0,
+			"fancyStyle": true
+		},
+		"unreadIndicators": {
+			"enabled": false,
+			"scale": 1,
+			"style": "FLAME"
+		}
+	},
+	"serversConfigs": [
+		{
+			"name": "Hypixel",
+			"ip": "hypixel.net",
+			"enabled": true,
+			"tunnelConfigs": [
+				{
+					"enabled": true,
+					"name": "Guild",
+					"receivePrefix": "Guild >",
+					"sendPrefix": "/gc "
+				},
+				{
+					"enabled": true,
+					"name": "Party",
+					"receivePrefix": "Party >",
+					"sendPrefix": "/pc "
+				},
+				{
+					"enabled": true,
+					"name": "Private",
+					"receivePrefix": "(From|To)( \\[(VIP|MVP)\\+?\\])? (.[^\\s]+):",
+					"sendPrefix": "/msg $4 "
+				}
+			]
+		},
+		{
+			"name": "Hypixel Alpha",
+			"ip": "alpha.hypixel.net",
+			"enabled": true,
+			"tunnelConfigs": [
+				{
+					"enabled": true,
+					"name": "Guild",
+					"receivePrefix": "Guild >",
+					"sendPrefix": "/gc "
+				},
+				{
+					"enabled": true,
+					"name": "Party",
+					"receivePrefix": "Party >",
+					"sendPrefix": "/pc "
+				},
+				{
+					"enabled": true,
+					"name": "Private",
+					"receivePrefix": "(From|To)( \\[(VIP|MVP)\\+?\\])? (.[^\\s]+):",
+					"sendPrefix": "/msg $4 "
+				}
+			]
+		}
+	]
+}

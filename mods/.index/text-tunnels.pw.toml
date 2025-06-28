@@ -1,0 +1,16 @@
+filename = 'TextTunnels-1.2.0.jar'
+name = 'Text Tunnels'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '72be4cc9138c2949e651dd6a2fde978defa259405808f31f6a753f6e1ac4f220638ef38ad16557177565f94c8bda36bc6c0a4895f641bcb7571a9e7afd538a56'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uL3EjOdB/versions/noU3iuwD/TextTunnels-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'uL3EjOdB'
+version = 'noU3iuwD'
