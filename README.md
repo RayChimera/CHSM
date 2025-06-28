@@ -12,7 +12,7 @@ Please read the **Notes** section before installing!
 ## Notes
 
 - Recommended launcher: [Prism Launcher](https://prismlauncher.org/)
-- As of now (28/06/2025) [Furfsky Reborn](https://modrinth.com/resourcepack/furfsky-reborn) requires adding `-Xss4m` as a Java argument. *Resource packs will likely fail to load* if you won't add that!
+- Please read [current issues](https://github.com/RayChimera/CHSM/wiki/Current-issues) before installing!
 
 ## Server
 
