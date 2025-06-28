@@ -1,0 +1,51 @@
+name: Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version (see semantic versioning)"
+        required: true
+        type: "string"
+        default: "0.0.0"
+      name:
+        description: "Release name"
+        required: true
+        type: "string"
+        default: "CHSM (Chimera's Hypixel Skyblock Modpack) ${{ inputs.version }}"
+      changelog:
+        description: "Changelog"
+        required: true
+        type: "string"
+      loaders:
+        description: "All supported platforms (Fabric/Quilt etc)"
+        type: "string"
+      game-versions:
+        description: ""
+        type: "choice"
+        options:
+          - 1.21.5
+          - 1.21.x
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Upload to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          # Configure the action as needed. The following is an example.
+          token: ${{ secrets.MODRINTH_PAT }}
+          project: Fp9Thu52
+          name: ${{ inputs.name }}
+          version: ${{ inputs.version }}
+          changelog: ${{ inputs.changelog }}
+          loaders: |-
+            fabric
+          game-versions: |-
+            1.21.5
+          files: "*.*"
