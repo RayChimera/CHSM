@@ -20,6 +20,7 @@ config/skyhanni/logs/
 config/skyhanni/repo/
 config/skyhanni/currentCommit.json
 config/skyhanni/friends.json
+config/skyhanni/pets.json
 config/aaron-mod.json
 config/resourceful-config-web.json
 config/sodium-fingerprint.json

@@ -7,7 +7,7 @@
 			"fancyStyle": true
 		},
 		"unreadIndicators": {
-			"enabled": false,
+			"enabled": true,
 			"scale": 1,
 			"style": "FLAME"
 		}
